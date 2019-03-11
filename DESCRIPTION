@@ -1,0 +1,12 @@
+Package: rcloud.dockerize
+Type: Package
+Title: One-click containerization of an RCloud Notebook
+Version: 0.0.1
+Author: Simon Urbanek <urbanek@research.att.com>, Gordon Woodhull <gordon@research.att.com>,
+Description: Adds a button to the RCloud navbar which creates a Docker image
+    with an instance of RCloud to run the notebook
+License: MIT
+RCloud-Extension: gui
+Encoding: UTF-8
+Suggests: rcloud.support (>= 1.8-0)
+
