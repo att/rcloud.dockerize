@@ -6,7 +6,7 @@
             // Are we in a notebook?
             if (RCloud.UI.navbar.add) {
 
-                oc = RCloud.promisify_paths(ocaps, [
+                var oc = RCloud.promisify_paths(ocaps, [
                     [ 'createImage' ]
                 ], true);
 
